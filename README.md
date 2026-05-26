@@ -11,25 +11,6 @@ Criar uma aplicação completa de CRUD (Create, Read, Update, Delete) onde o usu
 ✅ Excluir contatos do banco de dados
 
 
-🏗️ Arquitetura do Projeto
-Estrutura de Pastas
-AppAgenda/
-├── app/src/main/
-│   ├── java/br/com/senacrs/appAgenda/
-│   │   ├── MainActivity.java          (Tela de Cadastro)
-│   │   ├── ListarPessoasActitivity.java (Tela de Listagem)
-│   │   ├── Pessoa.java                (Entidade/Modelo)
-│   │   ├── Conexao.java               (Gerenciador BD)
-│   │   └── PessoaDAO.java             (Operações CRUD)
-│   └── res/
-│       ├── layout/
-│       │   ├── activity_main.xml
-│       │   └── activity_listar_pessoa_activity.xml
-│       ├── menu/
-│       │   ├── menu_principal.xml
-│       │   └── menu_contexto.xml
-│       └── AndroidManifest.xml
-
 📋 Componentes Principais
 1️⃣ Pessoa.java - Entidade de Dados
 javapublic class Pessoa implements Serializable {
